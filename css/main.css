@@ -1,0 +1,294 @@
+body{  
+    background: linear-gradient(to right, rgba(107, 107, 107, 0.9),  rgb(223, 223, 223));
+    
+}
+.navbar{
+    height: 15%;
+    background-color:linear-gradient(to right, rgba(107, 107, 107, 0.9) ,  rgb(223, 223, 223));
+    
+}
+.navbar i {
+    font-size: 30px;
+    color:rgb(243, 196, 158);
+}
+.navbar a:hover{
+    background-color: rgb(243, 196, 158);
+    color:rgb(54, 54, 54);
+    border-radius: 50px;
+}
+.navbar img{
+    width: 50px;
+    border-radius:50px;
+}
+.nav-item a{
+    color: wheat;
+    font-weight: bold;
+    font-family:'Calligraffitti', cursive;
+    margin: 0px 5px;
+    font-size: 18px;
+}
+/* End nav */
+.carousel-item {
+    height: 75%;
+}
+/* End slide show */
+.title{
+    margin-left:150px;
+    font-size: 50px;
+    font-family:'Calligraffitti', cursive;
+    color: rgb(243, 196, 158);
+    font-weight: bold;
+}
+.fa-address-card {
+    font-size: 45px;
+    margin-left: 10px;
+    color: rgb(243, 196, 158);
+}
+.contant{
+    margin-top: 50px;
+    width: 90%;
+}
+.contant .p{
+    text-align: center;
+    font-size: 25px;
+    font-family:'Calligraffitti', cursive;
+    color: rgb(243, 196, 158);
+    padding-top: 30px;
+    font-weight: bold;
+}
+.contant p{
+   font-size:15px;
+   font-weight: bold;
+   font-family:'Akaya Telivigala', cursive;
+}
+.pragraph{
+    margin-top:60px ;
+}
+.contant .fa-heart{
+    font-size: 0px;
+}
+@media(max-width:650px)
+{
+ .logo{
+     width:0px;
+ }
+.title{
+    font-size: 35px;
+    margin-left: 5%;
+    text-decoration: underline;
+}
+
+.contant{
+    margin-left: 20px;
+}
+.contant .fa-heart{
+    font-size: 15px;
+    color: rgb(243, 196, 158);
+}
+.contant .p{
+    color: rgb(243, 196, 158); 
+}
+}
+/* End About us */
+.items
+{
+    margin-top: 50px;
+}
+
+.items-title{
+    margin-left:40%;
+    margin-bottom:20px ;
+    font-size: 50px;
+    font-family:'Calligraffitti', cursive;
+    color: rgb(243, 196, 158);
+    font-weight: bold;
+}
+.card-header {
+    background: linear-gradient(to right, rgba(110, 110, 110, 0.9) ,  white);
+    border-radius: 50px;
+    border: rgb(243, 196, 158) solid 3px;
+   
+}
+.card-header .btn{
+    margin-left:40%;
+    font-size: 40px;
+    color: black;
+    font-family:'Allison', cursive;
+}
+.items i{
+    font-size: 50px;
+    color: rgb(243, 196, 158);
+    margin-left: 10px;
+}
+@media(max-width:650px){
+.items-title{
+    font-size: 35px;
+    margin-left: 20%;
+    text-decoration: underline;
+}
+.card-header .btn{
+    margin: 10%;
+    font-size:25px;
+}
+}
+/* End Gallary */
+.contact-title{
+    margin-left:35%;
+    font-size: 50px;
+    font-family:'Calligraffitti', cursive;
+    color: rgb(243, 196, 158);
+    font-weight: bold;
+}
+.contact h1{
+font-weight: bold;
+font-family: cursive;
+}
+.contact h3{
+    color: rgb(243, 196, 158);
+    font-weight: bold;
+    font-family: 'Calligraffitti', cursive;
+    margin: 15px;
+}
+.contact img{
+        margin-top: 90px;
+        width:95%;
+ }
+ .contact button{
+     background-color:rgb(243, 196, 158);
+     border: white solid 1px;
+     border-radius: 30px;
+     padding-top: 2px;
+     padding-bottom: 2px;
+     margin-top: 10px;
+     width: 100px;
+ }
+.contact button:hover{
+    background-color: white;
+    color: black;
+    border: rgb(243, 196, 158) 1px solid;
+}
+ .contact  input{
+     width: 50%;
+ }
+ .contact i{
+     font-size: 50px;
+     color: rgb(243, 196, 158);
+     margin-left: 10px;
+ }
+ @media(max-width:650px){
+    .contact-title{
+        font-size: 35px;
+        margin-left:0%;
+        text-decoration: underline;
+    }
+    .contact h1{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .contact{
+        margin-left:18%;
+    }
+    .contact input {
+        width: 200px;
+    }
+    .contact  img{
+      width: 0%;
+    }
+    .contact button {
+        margin: 25%;
+    }
+}
+    .footer{
+       background-color: rgba(0, 0, 0, 0.61);
+       padding-bottom: 10px;
+       margin-top: 50px;
+   }
+   .footer h1{
+       font-size: 15px;
+       color:rgb(243, 196, 158);
+       font-family: Arial, Helvetica, sans-serif;
+   }
+   .footer p{
+    font-size: 15px;
+    color:rgb(243, 196, 158);
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .footer i{
+       font-size: 20px;
+       color: rgb(243, 196, 158);
+   }
+   .footer b {
+       font-size: 18px;
+       color: rgb(243, 196, 158);
+       text-decoration: underline;
+       font-family: cursive;
+   }
+   .row-0{
+       margin: 0px 0px;
+   }
+   .sub-items img{
+ width: 100%;
+ height: 70%;
+ border-radius: 5px;
+   }
+.sub-items h6{
+ font-weight: bold;
+ text-align: center;
+ font-family: cursive;
+ font-size: 20px;
+}
+.sub-items button{
+    background-color:rgb(253, 253, 253);
+    border: rgb(243, 196, 158) solid 1px;
+    border-radius: 10px;
+    width: 200px;
+    color: rgb(243, 196, 158);
+    text-align: center;
+    font-weight: bold;
+    margin-left: 25%;
+    font-size: 23px;
+}
+.sub-items i{
+    font-size: 23px;
+}
+.sub-items button:hover{
+    background-color: rgba(21, 252, 0, 0.562);
+    color: black;
+    border: rgb(243, 196, 158) 1px solid;
+}
+@media(max-width:650px){
+.sub-items button {
+    width: 150px;
+    font-size:15px ;
+    height: 30px;
+   }
+.sub-items i {
+    font-size: 15px;
+}
+}
+
+
+<div class="card -1">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                  data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Baby fashon
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+
+
+              <div class="card -2">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Adults fashion
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
